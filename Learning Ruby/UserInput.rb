@@ -7,3 +7,4 @@ if user_input.include? "s" #finding if the letter s is in the input
 	user_input.gsub!(/s/, "th")
 else
 	print "There is no 's' in your input"
+puts "Your string is: #{user_input}"
