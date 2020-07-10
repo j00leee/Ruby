@@ -40,3 +40,16 @@ end
 for num in 1..15 #.. : include 15
 	puts num
 end
+
+#my own for loop 
+for num in 1..20
+	puts num
+end
+
+#loop method 
+i = 20 
+loop do 
+	i -= 1
+	print "#{i}"
+	break if i <= 0
+end
